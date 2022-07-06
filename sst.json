@@ -1,0 +1,5 @@
+{
+  "name": "simple-t3",
+  "region": "ap-southeast-1",
+  "main": "stacks/index.ts"
+}
