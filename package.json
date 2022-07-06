@@ -20,7 +20,9 @@
     "vitest": "^0.17.0"
   },
   "workspaces": [
-    "services","frontend"
+    "services",
+    "my-cra",
+    "my-next"
   ],
   "dependencies": {
     "@trpc/server": "^9.25.3"

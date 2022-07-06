@@ -11,7 +11,7 @@ const appRouter = trpc.router().query("hello", {
   }),
   async resolve(req) {
     // iii. Application logic
-    return { message: `Hello, ${req.input.name}!` };
+    return { message: `WOOOAAALLAAHHH, ${req.input.name}!` };
   },
 });
 

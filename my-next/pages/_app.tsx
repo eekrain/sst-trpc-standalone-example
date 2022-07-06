@@ -13,7 +13,9 @@ export default withTRPC<AppRouter>({
      * If you want to use SSR, you need to use the server's full URL
      * @link https://trpc.io/docs/ssr
      */
-    const url = "https://hw5vxa6j70.execute-api.ap-southeast-1.amazonaws.com";
+    const url =
+      process.env.API_URL ||
+      "https://hw5vxa6j70.execute-api.ap-southeast-1.amazonaws.com";
 
     return {
       url,
